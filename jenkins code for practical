@@ -5,7 +5,7 @@ from django.views.decorators.csrf import csrf_exempt
 import json
 # Create your views here.
 
-def index(request): main
+def index(request): 
     return HttpResponse("Hello, welcome to my portfolio") 
 
 @csrf_exempt
