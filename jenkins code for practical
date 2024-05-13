@@ -31,4 +31,4 @@ def job(request):
         company = data['company']
         
         job = Job.objects.filter(company=company).delete()
-        return HttpResponse({"company deleted successfully"})
+        return HttpResponse({"company deleted successfully"}
